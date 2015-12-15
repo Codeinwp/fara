@@ -1,0 +1,418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fara\n"
+"POT-Creation-Date: 2015-02-10 12:03+0200\n"
+"PO-Revision-Date: 2015-02-10 12:03+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_x;_n;_e\n"
+"X-Poedit-SearchPath-0: D:\\Programe\\InstantWP\\InstantWP_4.3.1\\iwpserver"
+"\\htdocs\\wordpress\\wp-content\\themes\\fara\n"
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/comments.php:35
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/comments.php:53
+msgid "Comment navigation"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/comments.php:36
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/comments.php:54
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/comments.php:37
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/content-page.php:18
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/content-single.php:27
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/content.php:36
+msgid "Pages:"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/content-page.php:25
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:187
+msgid "Edit"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/footer.php:15
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/footer.php:15
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/footer.php:17
+#, php-format
+msgid "Theme: %2$s by %1$s."
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/footer.php:18
+msgid "Back to top "
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/functions.php:53
+msgid "Primary Menu"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/functions.php:91
+msgid "Sidebar"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:28
+msgid "General"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:45
+msgid "Upload your favicon"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:67
+msgid "Upload your logo"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:88
+msgid "Logo size"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:89
+msgid "Max-width for the logo. Default 200px"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:109
+msgid "Logo style"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:110
+msgid "This option applies only if you are using a logo"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:114
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:620
+msgid "Only logo"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:115
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:621
+msgid "Logo plus site title&amp;description"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:124
+msgid "Fonts"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:126
+msgid ""
+"You can use any Google Fonts you want for the heading and/or body. See the "
+"fonts here: google.com/fonts. See the documentation if you need help with "
+"this: flyfreemedia.com/documentation/fara"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:137
+msgid "Body fonts"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:154
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:202
+msgid "Font name/style/sets"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:171
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:219
+msgid "Font family"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:185
+msgid "Headings fonts"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:233
+msgid "Font sizes"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:252
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:541
+msgid "Site title"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:273
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:562
+msgid "Site description"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:294
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:582
+msgid "Menu items"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:315
+msgid "H1 font size"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:336
+msgid "H2 font size"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:357
+msgid "H3 font size"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:378
+msgid "H4 font size"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:399
+msgid "H5 font size"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:420
+msgid "H6 font size"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:441
+msgid "Body font size"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:463
+msgid "Color 1"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:482
+msgid "Color 2"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:501
+msgid "Color 3"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:520
+msgid "Color 4"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/customizer.php:602
+msgid "Body text"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/extras.php:52
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:27
+msgid "Older posts"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:31
+msgid "Newer posts"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:69
+msgid "Post navigation"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:109
+#, php-format
+msgid "Posted on %s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:114
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:148
+#, php-format
+msgid "See all posts in %s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:155
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:183
+msgid "Leave a comment"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:155
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:183
+msgid "1 Comment"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:155
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:183
+msgid "% Comments"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:169
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:175
+msgid ", "
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:171
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:177
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:204
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:206
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:208
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:210
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:210
+msgid "Y"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:212
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:212
+msgid "F Y"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:214
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:214
+msgid "F j, Y"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:217
+msgid "Asides"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:219
+msgid "Galleries"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:221
+msgid "Images"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:223
+msgid "Videos"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:225
+msgid "Quotes"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:227
+msgid "Links"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:229
+msgid "Statuses"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:231
+msgid "Audio"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:233
+msgid "Chats"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:236
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:240
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: D:\Programe\InstantWP\InstantWP_4.3.1\iwpserver\htdocs\wordpress\wp-content\themes\fara/inc/template-tags.php:242
+msgid "Archives"
+msgstr ""
