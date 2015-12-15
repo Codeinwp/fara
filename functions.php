@@ -75,7 +75,7 @@ function fara_setup() {
 		'default-image' => get_template_directory_uri() . '/images/bg.jpg',
 		'default-repeat'         => 'no-repeat',
 		'default-position-x'     => 'center',
-		'default-attachment'     => 'fixed',		
+		'default-attachment'     => 'fixed',
 	) ) );
 }
 endif; // fara_setup
@@ -107,24 +107,24 @@ function fara_scripts() {
 	wp_enqueue_style( 'fara-bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css', array(), true );
 
 	if ( get_theme_mod('body_font_name') !='' ) {
-	    wp_enqueue_style( 'fara-body-fonts', '//fonts.googleapis.com/css?family=' . esc_attr(get_theme_mod('body_font_name')) ); 
+	    wp_enqueue_style( 'fara-body-fonts', '//fonts.googleapis.com/css?family=' . esc_attr(get_theme_mod('body_font_name')) );
 	} else {
 	    wp_enqueue_style( 'fara-body-fonts', '//fonts.googleapis.com/css?family=Fira+Sans:400,700,400italic,700italic');
 	}
 
 	if ( get_theme_mod('headings_font_name') !='' ) {
-	    wp_enqueue_style( 'fara-headings-fonts', '//fonts.googleapis.com/css?family=' . esc_attr(get_theme_mod('headings_font_name')) ); 
+	    wp_enqueue_style( 'fara-headings-fonts', '//fonts.googleapis.com/css?family=' . esc_attr(get_theme_mod('headings_font_name')) );
 	} else {
-	    wp_enqueue_style( 'fara-headings-fonts', '//fonts.googleapis.com/css?family=Montserrat:400,700'); 
-	}	
+	    wp_enqueue_style( 'fara-headings-fonts', '//fonts.googleapis.com/css?family=Montserrat:400,700');
+	}
 
 	wp_enqueue_style( 'fara-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'fara-font-awesome', get_template_directory_uri() . '/fonts/font-awesome.min.css' );	
+	wp_enqueue_style( 'fara-font-awesome', get_template_directory_uri() . '/fonts/font-awesome.min.css' );
 
-	wp_enqueue_script( 'fara-slicknav', get_template_directory_uri() . '/js/jquery.slicknav.min.js', array('jquery'), true );	
+	wp_enqueue_script( 'fara-slicknav', get_template_directory_uri() . '/js/jquery.slicknav.min.js', array('jquery'), true );
 
-	wp_enqueue_script( 'fara-fitvids', get_template_directory_uri() . '/js/jquery.fitvids.min.js', array('jquery'), true );			
+	wp_enqueue_script( 'fara-fitvids', get_template_directory_uri() . '/js/jquery.fitvids.min.js', array('jquery'), true );
 
 	wp_enqueue_script( 'fara-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), true );
 
@@ -136,9 +136,9 @@ function fara_scripts() {
 
 	wp_enqueue_script( 'jquery-masonry');
 
-	wp_enqueue_script( 'fara-imagesloaded', get_template_directory_uri() . '/js/imagesloaded.pkgd.min.js', array(), true );		
+	wp_enqueue_script( 'fara-imagesloaded', get_template_directory_uri() . '/js/imagesloaded.pkgd.min.js', array(), true );
 
-	wp_enqueue_script( 'fara-masonry-init', get_template_directory_uri() . '/js/masonry-init.js', array(), true );	
+	wp_enqueue_script( 'fara-masonry-init', get_template_directory_uri() . '/js/masonry-init.js', array(), true );
 
 
 }
@@ -190,3 +190,66 @@ require get_template_directory() . '/inc/jetpack.php';
  * Dynamic styles
  */
 require get_template_directory() . '/styles.php';
+
+/**
+ *TGM Plugin activation.
+ */
+require_once get_template_directory() . '/class-tgm-plugin-activation.php';
+
+/**
+ * TGMPA register
+ */
+function fara_register_required_plugins() {
+		$plugins = array(
+			array(
+				'name'      => 'WP Product Reviews',
+				'slug'      => 'wp-product-reviews',
+				'required'  => false,
+			),
+
+			array(
+				'name'      => 'Intergeo Maps - Google Maps Plugin',
+				'slug'      => 'intergeo-maps',
+				'required'  => false
+			),
+
+			array(
+				'name'     => 'Pirate Forms',
+				'slug' 	   => 'pirate-forms',
+				'required' => false
+			));
+
+	$config = array(
+        'default_path' => '',
+        'menu'         => 'tgmpa-install-plugins',
+        'has_notices'  => true,
+        'dismissable'  => true,
+        'dismiss_msg'  => '',
+        'is_automatic' => false,
+        'message'      => '',
+        'strings'      => array(
+            'page_title'                      => esc_html__( 'Install Required Plugins', 'fara' ),
+            'menu_title'                      => esc_html__( 'Install Plugins', 'fara' ),
+            'installing'                      => esc_html__( 'Installing Plugin: %s', 'fara' ),
+            'oops'                            => esc_html__( 'Something went wrong with the plugin API.', 'fara' ),
+            'notice_can_install_required'     => _n_noop( 'This theme requires the following plugin: %1$s.', 'This theme requires the following plugins: %1$s.', 'fara' ),
+            'notice_can_install_recommended'  => _n_noop( 'This theme recommends the following plugin: %1$s.', 'This theme recommends the following plugins: %1$s.', 'fara' ),
+            'notice_cannot_install'           => _n_noop( 'Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed.', 'Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed.', 'fara' ),
+            'notice_can_activate_required'    => _n_noop( 'The following required plugin is currently inactive: %1$s.', 'The following required plugins are currently inactive: %1$s.', 'fara' ),
+            'notice_can_activate_recommended' => _n_noop( 'The following recommended plugin is currently inactive: %1$s.', 'The following recommended plugins are currently inactive: %1$s.', 'fara' ),
+            'notice_cannot_activate'          => _n_noop( 'Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated.', 'Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated.', 'fara' ),
+            'notice_ask_to_update'            => _n_noop( 'The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s.', 'The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s.', 'fara' ),
+            'notice_cannot_update'            => _n_noop( 'Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated.', 'Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated.', 'fara' ),
+            'install_link'                    => _n_noop( 'Begin installing plugin', 'Begin installing plugins', 'fara' ),
+            'activate_link'                   => _n_noop( 'Begin activating plugin', 'Begin activating plugins', 'fara' ),
+            'return'                          => esc_html__( 'Return to Required Plugins Installer', 'fara' ),
+            'plugin_activated'                => esc_html__( 'Plugin activated successfully.', 'fara' ),
+            'complete'                        => esc_html__( 'All plugins installed and activated successfully. %s', 'fara' ),
+            'nag_type'                        => 'updated'
+        )
+    );
+
+	tgmpa( $plugins, $config );
+
+}
+add_action( 'tgmpa_register', 'fara_register_required_plugins' );
