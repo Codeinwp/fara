@@ -14,7 +14,7 @@
 		<div class="site-info container">
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'fara' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'fara' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %2$s by %1$s.', 'fara' ), 'FlyFreeMedia', '<a href="http://flyfreemedia.com/themes/fara" rel="designer">Fara</a>' ); ?>
+			<?php printf( __( 'Theme: %2$s by %1$s.', 'fara' ), 'JustFreeThemes', '<a href="http://justfreethemes.com/fara" rel="nofollow">Fara</a>' ); ?>
 			<a href="#" class="scrolltop"><i class="fa fa-chevron-up"></i>&nbsp;<?php _e('Back to top ', 'fara'); ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
