@@ -71,7 +71,7 @@ function fara_customize_register( $wp_customize ) {
                'priority'       => 11,
             )
         )
-    );    
+    );
     //Logo size
     $wp_customize->add_setting(
         'logo_size',
@@ -79,7 +79,7 @@ function fara_customize_register( $wp_customize ) {
             'sanitize_callback' => 'absint',
             'default'           => '200',
             'transport'         => 'postMessage'
-        )       
+        )
     );
     $wp_customize->add_control( 'logo_size', array(
         'type'        => 'number',
@@ -140,14 +140,14 @@ function fara_customize_register( $wp_customize ) {
             'type' => 'text',
             'priority' => 9
         )
-    );    
+    );
     //Front page
     $wp_customize->add_setting(
         'fara_slider_front',
         array(
             'sanitize_callback' => 'fara_sanitize_checkbox',
-            'default' => 0,         
-        )       
+            'default' => 0,
+        )
     );
     $wp_customize->add_control(
         'fara_slider_front',
@@ -155,7 +155,7 @@ function fara_customize_register( $wp_customize ) {
             'type' => 'checkbox',
             'label' => __('Show the slider on the front page?', 'fara'),
             'section' => 'fara_slider',
-            'priority' => 10,           
+            'priority' => 10,
         )
     );
     //Home page
@@ -163,8 +163,8 @@ function fara_customize_register( $wp_customize ) {
         'fara_slider_home',
         array(
             'sanitize_callback' => 'fara_sanitize_checkbox',
-            'default' => 0,         
-        )       
+            'default' => 0,
+        )
     );
     $wp_customize->add_control(
         'fara_slider_home',
@@ -172,7 +172,7 @@ function fara_customize_register( $wp_customize ) {
             'type' => 'checkbox',
             'label' => __('Show the slider on blog index/archives/etc?', 'fara'),
             'section' => 'fara_slider',
-            'priority' => 11,           
+            'priority' => 11,
         )
     );
     //Singular
@@ -180,8 +180,8 @@ function fara_customize_register( $wp_customize ) {
         'fara_slider_singular',
         array(
             'sanitize_callback' => 'fara_sanitize_checkbox',
-            'default' => 0,         
-        )       
+            'default' => 0,
+        )
     );
     $wp_customize->add_control(
         'fara_slider_singular',
@@ -189,7 +189,7 @@ function fara_customize_register( $wp_customize ) {
             'type' => 'checkbox',
             'label' => __('Show the slider on single posts and pages?', 'fara'),
             'section' => 'fara_slider',
-            'priority' => 12,           
+            'priority' => 12,
         )
     );
 
@@ -215,7 +215,7 @@ function fara_customize_register( $wp_customize ) {
         'settings' => 'fara_options[titles]',
         'priority' => 10
         ) )
-    );     
+    );
     //Body fonts
     $wp_customize->add_setting(
         'body_font_name',
@@ -263,7 +263,7 @@ function fara_customize_register( $wp_customize ) {
         'settings' => 'fara_options[titles]',
         'priority' => 13
         ) )
-    );    
+    );
     //Headings fonts
     $wp_customize->add_setting(
         'headings_font_name',
@@ -319,7 +319,7 @@ function fara_customize_register( $wp_customize ) {
             'sanitize_callback' => 'absint',
             'default'           => '62',
             'transport'         => 'postMessage'
-        )       
+        )
     );
     $wp_customize->add_control( 'site_title_size', array(
         'type'        => 'number',
@@ -332,7 +332,7 @@ function fara_customize_register( $wp_customize ) {
             'step'  => 1,
             'style' => 'margin-bottom: 15px; padding: 10px;',
         ),
-    ) ); 
+    ) );
     // Site description
     $wp_customize->add_setting(
         'site_desc_size',
@@ -340,7 +340,7 @@ function fara_customize_register( $wp_customize ) {
             'sanitize_callback' => 'absint',
             'default'           => '16',
             'transport'         => 'postMessage'
-        )       
+        )
     );
     $wp_customize->add_control( 'site_desc_size', array(
         'type'        => 'number',
@@ -353,7 +353,7 @@ function fara_customize_register( $wp_customize ) {
             'step'  => 1,
             'style' => 'margin-bottom: 15px; padding: 10px;',
         ),
-    ) );  
+    ) );
     // Nav menu
     $wp_customize->add_setting(
         'menu_size',
@@ -361,7 +361,7 @@ function fara_customize_register( $wp_customize ) {
             'sanitize_callback' => 'absint',
             'default'           => '16',
             'transport'         => 'postMessage'
-        )       
+        )
     );
     $wp_customize->add_control( 'menu_size', array(
         'type'        => 'number',
@@ -374,7 +374,7 @@ function fara_customize_register( $wp_customize ) {
             'step'  => 1,
             'style' => 'margin-bottom: 15px; padding: 10px;',
         ),
-    ) );           
+    ) );
     //H1 size
     $wp_customize->add_setting(
         'h1_size',
@@ -382,7 +382,7 @@ function fara_customize_register( $wp_customize ) {
             'sanitize_callback' => 'absint',
             'default'           => '36',
             'transport'         => 'postMessage'
-        )       
+        )
     );
     $wp_customize->add_control( 'h1_size', array(
         'type'        => 'number',
@@ -403,7 +403,7 @@ function fara_customize_register( $wp_customize ) {
             'sanitize_callback' => 'absint',
             'default'           => '30',
             'transport'         => 'postMessage'
-        )       
+        )
     );
     $wp_customize->add_control( 'h2_size', array(
         'type'        => 'number',
@@ -424,7 +424,7 @@ function fara_customize_register( $wp_customize ) {
             'sanitize_callback' => 'absint',
             'default'           => '24',
             'transport'         => 'postMessage'
-        )       
+        )
     );
     $wp_customize->add_control( 'h3_size', array(
         'type'        => 'number',
@@ -445,7 +445,7 @@ function fara_customize_register( $wp_customize ) {
             'sanitize_callback' => 'absint',
             'default'           => '18',
             'transport'         => 'postMessage'
-        )       
+        )
     );
     $wp_customize->add_control( 'h4_size', array(
         'type'        => 'number',
@@ -466,7 +466,7 @@ function fara_customize_register( $wp_customize ) {
             'sanitize_callback' => 'absint',
             'default'           => '14',
             'transport'         => 'postMessage'
-        )       
+        )
     );
     $wp_customize->add_control( 'h5_size', array(
         'type'        => 'number',
@@ -487,7 +487,7 @@ function fara_customize_register( $wp_customize ) {
             'sanitize_callback' => 'absint',
             'default'           => '12',
             'transport'         => 'postMessage'
-        )       
+        )
     );
     $wp_customize->add_control( 'h6_size', array(
         'type'        => 'number',
@@ -508,7 +508,7 @@ function fara_customize_register( $wp_customize ) {
             'sanitize_callback' => 'absint',
             'default'           => '16',
             'transport'         => 'postMessage'
-        )       
+        )
     );
     $wp_customize->add_control( 'body_size', array(
         'type'        => 'number',
@@ -660,7 +660,7 @@ function fara_customize_register( $wp_customize ) {
                 'priority' => 25
             )
         )
-    );               
+    );
     //Body
     $wp_customize->add_setting(
         'body_text_color',
@@ -681,7 +681,7 @@ function fara_customize_register( $wp_customize ) {
                 'priority' => 27
             )
         )
-    ); 
+    );
 
 }
 add_action( 'customize_register', 'fara_customize_register' );
@@ -721,3 +721,14 @@ function fara_customize_preview_js() {
 	wp_enqueue_script( 'fara_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20130508', true );
 }
 add_action( 'customize_preview_init', 'fara_customize_preview_js' );
+
+
+function fara_registers() {
+	wp_enqueue_script( 'fara_customizer_script', get_template_directory_uri() . '/js/fara_customizer.js', array("jquery"), '20120206', true  );
+
+	wp_localize_script( 'fara_customizer_script', 'faraCustomizerObject', array(
+		'github'				=> __('GitHub','fara'),
+		'review'				=> __('Leave a Review', 'fara')
+		) );
+}
+add_action( 'customize_controls_enqueue_scripts', 'fara_registers' );
