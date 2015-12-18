@@ -1,8 +1,8 @@
 /*
 Theme Name: Fara
-Theme URI: http://flyfreemedia.com/themes/fara
-Author: Fly Free Media
-Author URI: http://flyfreemedia.com/blog
+Theme URI: http://justfreethemes.com/fara
+Author: JustFreeThemes
+Author URI: http://justfreethemes.com/
 Description: Fara is a simple masonry theme that displays your posts in an elegant, content focused manner. It includes color options, logo and favicon options and Fara also lets you use any font from Google Fonts.
 Version: 1.04
 License: GNU General Public License v2 or later
@@ -423,7 +423,7 @@ Widgets
 	padding: 30px;
 	background-color: rgba(0,0,0,0.9);
 	-webkit-transition: all 0.5s;
-	transition: all 0.5s;	
+	transition: all 0.5s;
 }
 .widget {
 	margin: 0 0 30px;
@@ -470,7 +470,7 @@ Widgets
 }
 .widget_pages li::before {
 	content: '\f016';
-	margin-right: 5px;	
+	margin-right: 5px;
 }
 .tagcloud a {
 	border: 1px solid #41474F;
@@ -510,7 +510,7 @@ Widgets
 	right: 0;
 	top: 40%;
 	-webkit-transition: all 0.5s;
-	transition: all 0.5s;	
+	transition: all 0.5s;
 }
 .sidebar-toggle .fa {
 	font-size: 32px;
@@ -638,7 +638,7 @@ Social Menu
 .social-widget li,
 .social-navigation li {
 	-webkit-transition: all 0.3s;
-	transition: all 0.3s;	
+	transition: all 0.3s;
 }
 .social-widget li:hover,
 .social-navigation li:hover {
@@ -762,7 +762,7 @@ Comments
 	background-color: #fff;
 	font-size: 12px;
 	-webkit-transition: all 0.4s;
-	transition: all 0.4s;	
+	transition: all 0.4s;
 }
 a.comment-reply-link {
 	text-decoration: none;
@@ -929,7 +929,7 @@ Mobile menu
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
-    border-radius: 4px;  
+    border-radius: 4px;
     display: block;
 }
 /* Button Text */
@@ -984,7 +984,7 @@ Mobile menu
     color:#fff;
 }
 .slicknav_nav .slicknav_txtnode {
-     margin-left:15px;   
+     margin-left:15px;
 }
 
 /*--------------------------------------------------------------
@@ -1127,14 +1127,14 @@ Responsive
 @media (max-width: 1024px) {
 	.main-navigation {
 		display: none;
-	}	
+	}
 	.mobile-nav {
 		display: block;
 	}
 	.grid-layout .post-wrapper {
 		width: 100%;
 		margin: 0;
-	}	
+	}
 }
 @media (max-width: 767px) {
 	.post-number-0 .post-content,
@@ -1168,7 +1168,7 @@ Responsive
 	}
 	.nav-links img {
 		display: none;
-	}	
+	}
 	.nav-previous a,
 	.nav-next a {
 		margin: 0;
@@ -1190,7 +1190,7 @@ Responsive
 	}
 	.site-main .comment-navigation,
 	.site-main .posts-navigation,
-	.site-main .post-navigation,	
+	.site-main .post-navigation,
 	.site-header {
 		margin-bottom: 30px;
 	}
