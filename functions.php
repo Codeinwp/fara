@@ -202,8 +202,8 @@ require_once get_template_directory() . '/class-tgm-plugin-activation.php';
 function fara_register_required_plugins() {
 		$plugins = array(
 			array(
-				'name'      => 'WP Product Reviews',
-				'slug'      => 'wp-product-reviews',
+				'name'      => 'WP Product Review',
+				'slug'      => 'wp-product-review',
 				'required'  => false,
 			),
 
