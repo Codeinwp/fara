@@ -56,8 +56,11 @@
 
 	<?php if ( ( is_front_page() && get_theme_mod('fara_slider_front') ) || ( (is_home() || is_archive()) && get_theme_mod('fara_slider_home') ) || ( is_singular() && get_theme_mod('fara_slider_singular') ) ) : ?>
 		<div class="featured-area">
-		<?php $shortcode = get_theme_mod('fara_meta_shortcode');
-	    	echo do_shortcode(esc_attr($shortcode));
+		<?php
+        $shortcode = get_theme_mod( 'fara_meta_shortcode' );
+        if ( ! empty( $shortcode ) ) {
+            echo do_shortcode( $shortcode );
+        }
 	    ?>
 		</div>
 	<?php endif; ?>
